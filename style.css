@@ -1,0 +1,52 @@
+
+*{
+   
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+        body{
+            background-color:rgb(172, 71, 71)
+        }
+        table{
+            background-color: white;
+            width:90%;
+            margin: 8% 4%;
+            border-spacing: 0;
+            font-family: 'Montserrat', sans-serif;
+           
+           }
+           td,th{
+            padding:.5em 1em; 
+            
+            
+        }
+        td{
+            text-align: center;
+            font-size: 2em;
+        }
+        th{
+            background-color: rgb(7, 7, 7);
+            color: white;
+            font-size: 1em;
+            padding-top: 2em;
+            padding-bottom: 2em;        } 
+            
+    .first td{
+        padding-top: 1.7em;
+    }
+
+  
+    .last td{
+        padding-bottom: 3em;
+
+    }
+
+    span{
+        color: azure;
+        background-color: rgb(235, 81, 10);
+        border-radius: 50%;
+        padding: .5em .5em;
+
+    }
+    
