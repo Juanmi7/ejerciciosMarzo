@@ -1,52 +1,59 @@
-
 *{
-   
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: 0;
 }
-        body{
-            background-color:rgb(172, 71, 71)
-        }
-        table{
-            background-color: white;
-            width:90%;
-            margin: 8% 4%;
-            border-spacing: 0;
-            font-family: 'Montserrat', sans-serif;
-           
-           }
-           td,th{
-            padding:.5em 1em; 
-            
-            
-        }
-        td{
-            text-align: center;
-            font-size: 2em;
-        }
-        th{
-            background-color: rgb(7, 7, 7);
-            color: white;
-            font-size: 1em;
-            padding-top: 2em;
-            padding-bottom: 2em;        } 
-            
-    .first td{
-        padding-top: 1.7em;
-    }
-
+body {
+  background-color: orangered;
+}
+table {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 90%;
+  margin: 8% auto;
+  border-spacing: 0;
+  border-collapse: collapse;
   
-    .last td{
-        padding-bottom: 3em;
 
-    }
-
-    span{
-        color: azure;
-        background-color: rgb(235, 81, 10);
-        border-radius: 50%;
-        padding: .5em .5em;
-
-    }
+}
+td,th{
+    min-width: 6em; 
+    font-weight: 500;
+   
+}
+th {
+    background-color: rgb(24, 16, 16);
+    color: white;
     
+    padding-top: 1.8em;
+    padding-bottom: 1.8em;
+    font-weight: 900;
+}
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 1em;
+    text-align: center;
+    color: rgb(52, 48, 48);
+}
+.first td{
+    padding-top: 2em;
+}
+.last td{
+    padding-bottom: 3em;
+}
+span {
+    background-color: rgb(219, 75, 23);
+    padding: 9px 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+    th {
+        font-size: .9em;
+    }
+    td {
+        font-size: 1.25em;
+    }
+}

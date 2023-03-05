@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .principal {
+        width: 250px;
+        height: 370px;
+        background-color: rgb(252, 248, 248);
+        margin: auto;
+        margin-top: 10%;
+        box-shadow: 7px 13px 37px rgb(36, 34, 34);
+        padding: 30px 50px 30px 50px;
+      }
+      .encabezado {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(94, 85, 85);
+      }
+      .nombre {
+        margin-bottom: 0px;
+        font-size: 0.75em;
+      }
+      .recuadro {
+        width: 90%;
+        margin-bottom: 10px;
+        padding: 10px 10px;
+        border: 1px solid #eaeaec;
+        border-radius: 5px;
+      }
+      .checkbox {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .button {
+        background-color: #5469d4;
+        padding: 10px 35px;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        color: aliceblue;
+      }
+      .final {
+        color:  #5469d4;
+        text-align: center;
+        text-decoration: none;
+        font-size: 0.9em;
+        margin-top: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .check {
+        font-size: 0.8em;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="principal">
+      <p class="encabezado">Sing in to your account</p>
+      <p class="nombre">Email</p>
+      <input class="recuadro" type="text" name="name" />
+      <p class="nombre">Password</p>
+      <input class="recuadro" type="password" name="password" />
+
+      <input class="checkbox" type="checkbox" name="card" /><span class="check"
+        >Stay signed in for a Week</span
+      >
+
+      <button class="button" type="submit"><strong>Continue</strong></button>
+      <p class="final">Use single sing-on (google) instead</p>
+
+      <a class="final" href="http://www.google.com"
+        ><p class="final">Forgor your password?</p></a
+      >
+    </section>
+  </body>
+</html>
